@@ -1,0 +1,37 @@
+/* ============================================================================================ */
+/* [Web Font]
+/* ============================================================================================ */
+@font-face {font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Thin.woff2") format("woff2"), url("../fonts/NotoSansKR-Thin.woff") format("woff"); font-weight: 100; font-style: normal;}
+@font-face {font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Light.woff2") format("woff2"), url("../fonts/NotoSansKR-Light.woff") format("woff"); font-weight: 200; font-style: normal;}
+@font-face {font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-DemiLight.woff2") format("woff2"), url("../fonts/NotoSansKR-DemiLight.woff") format("woff"); font-weight: 300; font-style: normal;}
+@font-face {font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Regular.woff2") format("woff2"), url("../fonts/NotoSansKR-Regular.woff") format("woff"); font-weight: 400; font-style: normal;}
+@font-face {font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Medium.woff2") format("woff2"), url("../fonts/NotoSansKR-Medium.woff") format("woff"); font-weight: 500; font-style: normal;}
+@font-face {font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Bold.woff2") format("woff2"), url("../fonts/NotoSansKR-Bold.woff") format("woff"); font-weight: 700; font-style: normal;}
+@font-face {font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Black.woff2") format("woff2"), url("../fonts/NotoSansKR-Black.woff") format("woff"); font-weight: 900; font-style: normal;}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/* ============================================================================================ */
+/* [common]
+/* ============================================================================================ */
+
+/* clearfix */
+.clearfix {*zoom: 1;}
+.clearfix::before, .clearfix::after {content: ''; display: block; clear: both;}
+
+/* display */
+.pc_only {display: block !important;}
+.mo_only {display: none !important;}
+
+/* fontStyle */
+.OpenSans {font-family: 'Open Sans','Noto Sans KR', sans-serif;}
+.ta-left {text-align: left !important;}
+.ta-center {text-align: center !important;}
+.ta-right {text-align: right !important;}
+
+.orange {color: #ff6600 !important;}
+
+/* ============================================================================================ */
+/* [layout]
+/* ============================================================================================ */
+
