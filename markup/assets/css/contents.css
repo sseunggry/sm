@@ -1,19 +1,4 @@
 @charset "UTF-8";
-/* 
-popup
-*/
-
-.popup {text-align: center;}
-.popup .img {max-width: 750px; margin: auto;}
-.popup .img img {display: block; width: 100%;}
-
-.popup .txt {width: 400px; margin: 0 auto; text-align: center;}
-.popup .txt h1 {margin-top: 20px;  font-size: 24px;}
-.popup .txt strong {display: block; margin: 10px 0 20px 0; font-size: 16px; font-weight: 700;}
-.popup .txt p { width : 90%; height: 100px; overflow: hidden; font-size: 16px; color: #666; }
-
-.popup .btn {margin: 30px 0 20px 0;}
-.popup .btn button {padding: 12px 140px; font-size: 16px; border: 0; background: #222; color: #fff;}
 
 /*
 common_container
@@ -68,7 +53,7 @@ mian_container
 
 /* visual */
 .visual .visual_slides li {position: relative;}
-.visual .visual_slides li .title {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; z-index: 5;}
+.visual .visual_slides li .title {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; color: #fff; z-index: 5;}
 .visual .visual_slides li .title p {margin-top: 30px;}
 
 .visual .visual_slides li .imgWrap {position: relative; padding-top: calc(924/1920*100%);}
@@ -79,6 +64,7 @@ mian_container
 .slick-dots {position: absolute; bottom: 2%;}
 .slick-dots li button:before {font-size: 50px; color: #fff; opacity: 0.5;}
 .slick-dots li.slick-active button:before {color: #fff;}
+.slick-prev, .slick-next {display: none !important;}
 
 /* introduce */
 .introduce {position: relative;}
@@ -217,9 +203,6 @@ sub_container
 .about02 .txtWrap {text-align: center; color: #fff;}
 .about02 .txtWrap strong {font-size: 24px; font-weight: 700; letter-spacing: 0.5px;}
 .about02 .txtWrap h3 {margin: 20px 0 60px; font-size: 90px; line-height: 1.2;}
-
-/* .about02 .imgWrap {position: relative; overflow: hidden; padding-top: calc(670/1200 * 100%);}
-.about02 .imgWrap img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;} */
 .about02 .imgWrap {width: 100%; height: 670px; background: url('../img/content/aboutus_02_.jpg') no-repeat center / cover; background-attachment: fixed;}
 
 .about03 .inner {position: relative;}
@@ -368,8 +351,6 @@ sub_container
     .notice .noticeList li:nth-child(2n-1) {margin-left: 0;}
     .notice .noticeList li:nth-child(2n) {margin-left: 4%;}
 
-
-    
 }
 
 @media all and (max-width: 980px) {
@@ -379,225 +360,226 @@ sub_container
     */
 
     /* header */
-    .header {height: 120px;}
-    .header h1 {left: 60px; transform: translateY(-50%); width: 220px; height: 46px;}
+    .header {height: 12.24vw;}
+    .header h1 {left: 6.12vw; transform: translateY(-50%); width: 28.57vw; height: 5.41vw;}
 
-    .hamBtn {right: 60px; width: 120px; height: 120px;}
-    .hamBtn .ico_menu {width: 40px; height: 32px;}
-    .hamBtn .ico_menu span { height: 4px;}
-    .hamBtn .ico_menu span:nth-child(1) {top: 4px;}
-    .hamBtn .ico_menu span:nth-child(2) {bottom: 4px;}
-    .hamBtn.click .ico_menu span:nth-child(1) { top: 14px; }
-    .hamBtn.click .ico_menu span:nth-child(2) {bottom: 14px; }
+    .hamBtn {right: 6.12vw; width: 12.24vw; height: 12.24vw;}
+    .hamBtn .ico_menu {width: 4.08vw; height: 3.27vw;}
+    .hamBtn .ico_menu span { height: 0.41vw;}
+    .hamBtn .ico_menu span:nth-child(1) {top: 0.41vw;}
+    .hamBtn .ico_menu span:nth-child(2) {bottom: 0.41vw;}
+    .hamBtn.click .ico_menu span:nth-child(1) { top: 1.43vw; }
+    .hamBtn.click .ico_menu span:nth-child(2) {bottom: 1.43vw; }
     
-    .gnbOpen {padding-top: 100px;}
-    .gnbOpen .moGnbMenu {padding: 0 80px;}
-    .gnbOpen .moGnbMenu .depth1 > li {margin: 30px 0;}
-    .gnbOpen .moGnbMenu .depth1 > li > a {padding: 10px 0; font-size: 48px;}
-    .gnbOpen .moGnbMenu .depth2 {margin-bottom: 40px;}
-    .gnbOpen .moGnbMenu .depth2 > li {margin: 10px 0;}
-    .gnbOpen .moGnbMenu .depth2 > li a {padding: 5px 0; font-size: 32px;}
+    .gnbOpen {padding-top: 10.20vw;}
+    .gnbOpen .moGnbMenu {padding: 0 8.16vw;}
+    .gnbOpen .moGnbMenu .depth1 > li {margin: 6.06vw 0;}
+    .gnbOpen .moGnbMenu .depth1 > li > a {padding: 1.02vw 0; font-size: 5.71vw;}
+    .gnbOpen .moGnbMenu .depth2 {margin-bottom: 4.08vw;}
+    .gnbOpen .moGnbMenu .depth2 > li {margin: 1.02vw 0;}
+    .gnbOpen .moGnbMenu .depth2 > li a {padding: 0.51vw 0; font-size: 3.27vw;}
 
     /* footer */
-    .btn_top a {width: 120px; height: 120px;}
+    .btn_top a {width: 12.24vw; height: 12.24vw;}
 
-    .footer {display: block; padding: 80px 0;}
+    .footer {display: block; padding: 8.16vw 0;}
     .footer .logo {display: none;}
 
-    .footer .right {float: none; display: block; width: 100%; margin-top: 30px;}
+    .footer .right {float: none; display: block; width: 100%; margin-top: 3.06vw;}
     .footer .right .btn_sns {margin-left: 0;}
-    .footer .right .btn_sns li + li {margin-left: 50px;}
-    .footer .right .btn_sns li a {width: 58px; height: 52px;}
-    .footer .right .txt .footerMenu {flex-wrap: wrap; margin: 40px 0 28px;}
-    .footer .right .txt .footerMenu li {font-size: 32px; line-height: 2;}
-    .footer .right .txt .footerMenu li::after {margin: -2px 18px; width: 3px; height: 28px;}
-    .footer .right .txt p {margin-top: 60px; font-size: 28px; letter-spacing: 1px;}
+    .footer .right .btn_sns li + li {margin-left: 5.10vw;}
+    .footer .right .btn_sns li a {width: 5.92vw; height: 5.31vw;}
+    .footer .right .txt .footerMenu {flex-wrap: wrap; margin: 4.08vw 0 2.86vw;}
+    .footer .right .txt .footerMenu li {font-size: 3.27vw; line-height: 2;}
+    .footer .right .txt .footerMenu li::after {margin: -0.20vw 1.84vw; width: 0.31vw; height: 2.86vw;}
+    .footer .right .txt p {margin-top: 6.12vw; font-size: 2.86vw; letter-spacing: 0.10vw;}
 
 
     /* 
     main_container
     */
 
-    .visual .visual_slides li .title p {margin-top: 40px;}
-    .slick-dots li button:before {font-size: 60px;}
+    .visual .visual_slides li .title {width: 70%;}
+    .visual .visual_slides li .title p {margin-top: 4.08vw;}
+    .slick-dots li button:before {font-size: 6.12vw;}
 
     /* introduce */
     .introduce .imgWrap {width: 100%;}
 
-    .introduce .txt {position: relative; margin-top: 60px; width: 100%; transform: translate(0);}
-    .introduce .txt h5 {font-weight: 700; letter-spacing: 0px;}
-    .introduce .txt p {width: 90%; margin-top: 20px;}
-    .introduce .txt > .btn {margin-top: 60px;}
-    .introduce .bgTxt {bottom: -124px; right: -20px;}
-    .introduce .bgTxt p {font-size: 200px;}
+    .introduce .txt {position: relative; margin-top: 8.16vw; width: 100%; transform: translate(0);}
+    .introduce .txt h5 {font-weight: 700; letter-spacing: 0.00vw;}
+    .introduce .txt p {width: 90%; margin-top: 4.08vw;}
+    .introduce .txt > .btn {margin-top: 8.16vw;}
+    .introduce .bgTxt {bottom: -12.65vw; right: -2.04vw;}
+    .introduce .bgTxt p {font-size: 20.41vw;}
 
     /* newAlbum */
-    .newAlbum .title p {margin-top: 20px; font-size: 36px;}
+    .newAlbum .title p {margin-top: 2.04vw; font-size: 3.67vw;}
 
-    .newAlbum .artistList {display: block; margin-top: 80px;}
-    .newAlbum .artistList ul + ul {margin-top: 60px;}
+    .newAlbum .artistList {display: block; margin-top: 8.16vw;}
+    .newAlbum .artistList ul + ul {margin-top: 6.12vw;}
     .newAlbum .artistList ul:nth-child(2n) {margin-left: 0;}
     .newAlbum .artistList ul:nth-child(2n) li:first-child {margin-left: 0;}
 
     .newAlbum .artist {display: block;}
     .newAlbum .artist li {width: 100%;}
     .newAlbum .artist li.hover {transform: rotate(360deg);}
-    .newAlbum .artist li + li {margin-left: 0; margin-top: 60px;}
-    .newAlbum .artist li a span {font-size: 30px;}
+    .newAlbum .artist li + li {margin-left: 0; margin-top: 6.12vw;}
+    .newAlbum .artist li a span {font-size: 3.06vw;}
 
     /* banner */
-    .banner .txt {padding: 0 60px;}
+    .banner .txt {padding: 0 6.12vw;}
     .banner .txt h3 {width: 80%;}
-    .banner .txt p {width: 70%; margin-top: 40px; font-size: 32px;}
+    .banner .txt p {width: 70%; margin-top: 4.08vw; font-size: 3.27vw;}
 
     .banner .imgWrap {padding-top: calc(800/980*100%);}
 
     /* designTxt */
-    .designTxt p {font-size: 190px;}
-    .designTxt p + p {margin-left: 50px;}
-    .designTxt p:nth-child(2n) {-webkit-text-stroke: 3px #222;}
+    .designTxt p {font-size: 19.39vw;}
+    .designTxt p + p {margin-left: 5.10vw;}
+    .designTxt p:nth-child(2n) {-webkit-text-stroke: 0.31vw #222;}
 
     /* mainNews */
-    .mainNews .thumbnail li {width: calc(50% - 20px); padding: 20px 0 40px;}
+    .mainNews .thumbnail li {width: calc(50% - 2.04vw); padding: 2.04vw 0 4.08vw;}
     .mainNews .thumbnail li:nth-child(3n-2), .mainNews .thumbnail li:nth-child(3n) {position: relative; top: 0;}
-    .mainNews .thumbnail li .txt {margin-top: 40px;}
-    .mainNews .thumbnail li .txt dt {font-size: 42px;}
-    .mainNews .thumbnail li .txt dd {margin-top: 20px; font-size: 32px;}
+    .mainNews .thumbnail li .txt {margin-top: 4.08vw;}
+    .mainNews .thumbnail li .txt dt {overflow: hidden; height: 19.29vw; font-size: 4.29vw;}
+    .mainNews .thumbnail li .txt dd {margin-top: 2.04vw; font-size: 3.27vw;}
 
     
     /*
     sub_container
     */
-    .subTitle {margin-top: 120px;}
+    .subTitle {margin-top: 12.24vw;}
     .subTitle .title {width: 70%;}
-    .subTitle .title h2 {font-size: 80px;}
+    .subTitle .title h2 {font-size: 10.20vw;}
 
-    .txtList dt {font-size: 36px;}
-    .txtList dd {font-size: 28px;}
+    .txtList dt {font-size: 3.67vw;}
+    .txtList dd {font-size: 2.86vw;}
 
     .subTxt .txtWrap br {display: none;}
-    .subTxt .txtWrap p {margin: 30px 0 60px; font-size: 32px;}
+    .subTxt .txtWrap p {margin: 3.06vw 0 6.12vw; font-size: 3.27vw;}
 
     /* formStyle */
-    .formStyle .formList {padding: 60px 0; border-top-width: 4px; border-bottom-width: 2px;}
-    .formList > dl {display: block; margin-bottom: 60px;}
-    .formList > dl dt {font-size: 36px;}
-    .formList > dl dd {margin: 30px 0 0 0; font-size: 32px;}
+    .formStyle .formList {padding: 6.12vw 0; border-top-width: 0.41vw; border-bottom-width: 0.31vw;}
+    .formList > dl {display: block; margin-bottom: 6.12vw;}
+    .formList > dl.privacyWrap {margin-bottom: 0;}
+    .formList > dl dt {font-size: 3.67vw;}
+    .formList > dl dd {margin: 3.06vw 0 0 0; font-size: 3.27vw;}
 
-    .formList dd input {border-width: 2px;}
+    .formList dd input {border-width: 0.31vw;}
     .formList dd input[type="text"], .formList dd input[type="email"],
-    .formList dd input[type="number"] {padding: 0 40px; height: 100px;}
+    .formList dd input[type="number"] {padding: 0 4.08vw; height: 10.20vw;}
 
-    .formList .radio + .radio {margin-left: -2px;}
-    .formList .radio input[type="radio"] + label {display: flex; height: 100px; border-width: 2px;}
+    .formList .radio + .radio {margin-left: -0.20vw;}
+    .formList .radio input[type="radio"] + label {display: flex; height: 10.20vw; border-width: 0.31vw;}
 
-    .formList .check {margin-top: 30px;}
-    .formList .check input[type="checkbox"] + label span {margin-left: 20px; font-size: 36px;}
-    .formList .check input[type="checkbox"] + label::before {width: 60px; height: 60px;}
+    .formList .check {margin-top: 6.06vw;}
+    .formList .check input[type="checkbox"] + label span {margin-left: 2.04vw; font-size: 3.67vw;}
+    .formList .check input[type="checkbox"] + label::before {width: 6.12vw; height: 6.12vw;}
 
     .formList .selectWrap {height: auto;}
     .formList .select {width: 100%;}
-    .formList .select + .select {margin-left: 0; margin-top: 20px;}
-    .formList .select .select_type {height: 100px; border-width: 2px}
-    .formList .select .select_type::after {right: 40px; width: 36px; height: 20px;}
-    .formList .select .select_type span {left: 40px; font-size: 32px; }
+    .formList .select + .select {margin-left: 0; margin-top: 2.04vw;}
+    .formList .select .select_type {height: 10.20vw; border-width: 0.31vw}
+    .formList .select .select_type::after {right: 4.08vw; width: 3.67vw; height: 2.04vw;}
+    .formList .select .select_type span {left: 4.08vw; font-size: 3.27vw; }
     
-    .formList .select .select_list {margin-top: -2px; padding: 20px 0; border-width: 2px;}
-    .formList .select .select_list .option {width: 100%; padding: 20px 40px; font-size: 32px;}
+    .formList .select .select_list {margin-top: -0.20vw; padding: 2.04vw 0; border-width: 0.31vw;}
+    .formList .select .select_list .option {width: 100%; padding: 2.04vw 4.08vw; font-size: 3.27vw;}
 
-    .formList .privacy { padding: 50px; height: 800px; border-width: 2px;}
-    .formList .privacy > p {margin-bottom: 40px; font-size: 32px;}
-    .formList .privacy dl {font-size: 32px; margin-top: 50px;}
-    .formList .privacy .detailTxt {margin-top: 50px;}
-    .formList .privacy .detailTxt p {margin-bottom: 30px; font-size: 32px;}
-    .formList .privacy .detailTxt .txtStyle {margin-top: 40px;}
+    .formList .privacy { padding: 5.10vw; height: 81.63vw; border-width: 0.31vw;}
+    .formList .privacy > p {margin-bottom: 4.08vw; font-size: 3.27vw;}
+    .formList .privacy dl {font-size: 3.27vw; margin-top: 5.10vw;}
+    .formList .privacy .detailTxt {margin-top: 5.10vw;}
+    .formList .privacy .detailTxt p {margin-bottom: 3.06vw; font-size: 3.27vw;}
+    .formList .privacy .detailTxt .txtStyle {margin-top: 4.08vw;}
 
     /* About Us */
-    .about01 .imgWrap {margin-bottom: 60px;}
+    .about01 .imgWrap {margin-bottom: 6.12vw;}
 
     .about01 .txt h5 {width: 70%;}
-    .about01 .txt .detail {width: 80%; margin: 50px 0 0 0;}
-    .about01 .txt .detail li {font-size: 32px;}
-    .about01 .txt .detail li + li {margin-top: 40px;}
+    .about01 .txt .detail {width: 80%; margin: 5.10vw 0 0 0;}
+    .about01 .txt .detail li {font-size: 3.27vw;}
+    .about01 .txt .detail li + li {margin-top: 4.08vw;}
 
-    .about02 .txtWrap strong {font-size: 32px; letter-spacing: 0px;}
-    .about02 .txtWrap h3 {margin: 30px 0 80px; font-size: 90px;}
-    .about02 .imgWrap {height: 670px;}
+    .about02 .txtWrap strong {font-size: 3.27vw; letter-spacing: 0.00vw;}
+    .about02 .txtWrap h3 {margin: 3.06vw 0 8.16vw; font-size: 9.18vw;}
+    .about02 .imgWrap {height: 68.37vw;}
 
     .about03 .imgWrap { margin-right: 0; width: 100%;}
 
-    .about03 .txtWrap {position: relative; top: 0; margin: 60px 0 0 0; width: 100%; transform: translateY(0);}
+    .about03 .txtWrap {position: relative; top: 0; margin: 6.12vw 0 0 0; width: 100%; transform: translateY(0);}
     .about03 .txtWrap h3 {width: 80%;}
 
-    .about03 .txtWrap .txtList {margin-top: 60px;}
+    .about03 .txtWrap .txtList {margin-top: 6.12vw;}
     .about03 .txtWrap .txtList dl {display: flex; flex-wrap: wrap;}
-    .about03 .txtWrap .txtList dl + dl {margin-top: 40px;}
-    .about03 .txtWrap .txtList dt {margin-bottom: 30px;}
+    .about03 .txtWrap .txtList dl + dl {margin-top: 4.08vw;}
+    .about03 .txtWrap .txtList dt {margin-bottom: 3.06vw;}
     .about03 .txtWrap .txtList dd {width: 100%;}
 
     .about04 { background-image: url('../img/content/aboutus_04_mo.jpg');}
-    .about04 .txtList dl {width: 45%; margin-right: 10%; padding: 20px 0 40px;}
+    .about04 .txtList dl {width: 45%; margin-right: 10%; padding: 2.04vw 0 4.08vw;}
     .about04 .txtList dl:nth-child(2n), .about04 .txtList dl:nth-child(3n) {margin-right: 0;}
     .about04 .txtList dl:nth-child(2n-1) {margin-right: 10%;}
-    .about04 .txtList dt {margin-bottom: 20px;}
+    .about04 .txtList dt {margin-bottom: 2.04vw;}
 
     /* artists_musicians */
     .artistWrap .inner {display: block;}
-    .artistWrap .tabList {position: relative; display: flex; margin: 0 0 60px 0; width: 100%;}
-    .artistWrap .tabList::after{content: ''; position: absolute; bottom: 2px; display: block; width: 100%; height: 4px; background: #bbb;}
+    .artistWrap .tabList {position: relative; display: flex; margin: 0 0 6.12vw 0; width: 100%;}
+    .artistWrap .tabList::after{content: ''; position: absolute; bottom: 0.20vw; display: block; width: 100%; height: 0.41vw; background: #bbb;}
     .artistWrap .tabList li {flex: 1; text-align: center;}
     .artistWrap .tabList li + li {margin: 0 0 0 0;}
-    .artistWrap .tabList li a {display: block; padding: 20px 0; font-size: 42px; letter-spacing: 2px;}
+    .artistWrap .tabList li a {display: block; padding: 2.04vw 0; font-size: 4.29vw; letter-spacing: 0.20vw;}
 
-    .artistWrap .tabList li.on a::after {top: calc(100% - 4px); display: block; margin-left: 0; width: 100%; height: 4px; z-index: 2;}
+    .artistWrap .tabList li.on a::after {top: calc(100% - 0.41vw); display: block; margin-left: 0; width: 100%; height: 0.41vw; z-index: 2;}
 
     .artistWrap .thumbList {display: block; width: 100%;}
-    .artistWrap .thumbList li {margin-bottom: 80px; padding-left: 0; width: 100%;}
+    .artistWrap .thumbList li {margin-bottom: 8.16vw; padding-left: 0; width: 100%;}
     .artistWrap .thumbList li:nth-child(2n) {top: 0; margin-left: 0;}
 
-    .artistWrap .thumbList li span {top: 10px; left: 0; transform: rotate(0) translateY(0); font-size: 36px;}
-    .artistWrap .thumbList li p {font-size: 48px;}
+    .artistWrap .thumbList li span {top: 1.02vw; left: 0; transform: rotate(0) translateY(0); font-size: 3.67vw;}
+    .artistWrap .thumbList li p {font-size: 4.90vw;}
 
     /* media_news */
-    .news .banner {padding: 80px 60px;}
-    .news .banner .txtWrap h3 {margin-bottom: 20px;}
+    .news .banner {padding: 8.16vw 6.12vw;}
+    .news .banner .txtWrap h3 {margin-bottom: 2.04vw;}
     .news .banner .txtWrap h3 br {display: none;}
 
-    .news .newsList {margin-top: 60px;}
+    .news .newsList {margin-top: 6.12vw;}
     .news .newsList li {display: block;}
-    .news .newsList li + li {margin-top: 100px;}
+    .news .newsList li + li {margin-top: 10.20vw;}
 
     .news .newsList .imgCon {width: 100%;}
-    .news .newsList .txtCon {width: 100%; margin: 50px 0 0 0;}
-    .news .newsList .txtCon .txt span {font-size: 32px; letter-spacing: 0px;}
-    .news .newsList .txtCon .txt span::before {top: 32px; left: 2px; width: 3px; height: 24px;}
-    .news .newsList .txtCon .txt h3 {margin-top: 70px; max-height: 180px; font-size: 64px; -webkit-line-clamp: 2;}
-    .news .newsList .txtCon .txt p { margin-top: 40px; max-height: 212px; -webkit-line-clamp: 5;}
+    .news .newsList .txtCon {width: 100%; margin: 5.10vw 0 0 0;}
+    .news .newsList .txtCon .txt span {font-size: 3.27vw; letter-spacing: 0.00vw;}
+    .news .newsList .txtCon .txt span::before {top: 3.27vw; left: 0.20vw; width: 0.31vw; height: 2.45vw;}
+    .news .newsList .txtCon .txt h3 {margin-top: 7.14vw; max-height: 18.37vw; font-size: 6.53vw; -webkit-line-clamp: 2;}
+    .news .newsList .txtCon .txt p { margin-top: 4.08vw; max-height: 21.63vw; -webkit-line-clamp: 5;}
 
     .news .newsList li:nth-child(2n) .imgCon {order: 0;}
-    .news .newsList li:nth-child(2n) .txtCon {margin: 50px 0 0 0;}
+    .news .newsList li:nth-child(2n) .txtCon {margin: 5.10vw 0 0 0;}
 
     /* media_notice */
     .notice .noticeList li {width: 100%;}
-    .notice .noticeList li + li {margin: 100px 0 0 0}
+    .notice .noticeList li + li {margin: 10.20vw 0 0 0}
     .notice .noticeList li:nth-child(2n) {margin-left: 0;}
 
-    .notice .noticeList .txtWrap dt {max-height: 116px; margin: 50px 0 40px; font-size: 42px; -webkit-line-clamp: 2; }
-    .notice .noticeList .txtWrap dd.text { max-height: 138px; font-size: 32px; -webkit-line-clamp: 3;}
-    .notice .noticeList .txtWrap dd.date {margin-top: 30px; font-size: 32px;}
+    .notice .noticeList .txtWrap dt {max-height: 11.84vw; margin: 5.10vw 0 4.08vw; font-size: 4.29vw; -webkit-line-clamp: 2; }
+    .notice .noticeList .txtWrap dd.text { max-height: 14.08vw; font-size: 3.27vw; -webkit-line-clamp: 3;}
+    .notice .noticeList .txtWrap dd.date {margin-top: 3.06vw; font-size: 3.27vw;}
     
-    .notice .btnWrap .btn {margin: 80px 0 40px;}
+    .notice .btnWrap .btn {margin: 8.16vw 0 4.08vw;}
 
     /* audition_apply */
-    .applyInfo .email a {font-size: 60px;}
-    .applyInfo .email a::after {height: 3px;}
-    .applyForm {padding-bottom: 100px;}
-    .applyForm .formStyle {margin-top: 20px;}
+    .applyInfo .email a {font-size: 6.12vw;}
+    .applyInfo .email a::after {height: 0.31vw;}
+    .applyForm {padding-bottom: 10.20vw;}
+    .applyForm .formStyle {margin-top: 2.04vw;}
 
-    .applyForm {display: block; padding-bottom: 100px;}
+    .applyForm {display: block; padding-bottom: 10.20vw;}
     .applyForm h5 {width: 100%;}
-    .applyForm .formStyle {width: 100%; margin-top: 30px;}
-    .applyForm .btnWrap {margin-bottom: 40px;}
-
+    .applyForm .formStyle {width: 100%; margin-top: 3.06vw;}
+    .applyForm .btnWrap {margin: 3.06vw 0 8.08vw;}
 
 }

@@ -1,0 +1,110 @@
+{
+    "templete": {
+        "h2Title": "<h2><a href=\"#\" onclick=\"toggleFunc(event, this)\">{title}</a></h2>",
+        "detail": [
+            "{html}",
+            "<td colspan=\"{colspan}\" class=\"{td_class}\"><a href=\"{href}\" target=\"{target}\" class=\"{class}\" onclick=\"clickFuncs(event, this)\">{subject}<span class=\"{comment_class}\">{comment}</span></a><a href=\"{href}\" target=\"_blank\" class=\"new_window\">새창</a></td>"
+        ]
+    },
+    "header": {
+        "title": "코딩리스트 - 라온시큐어"
+    },
+    "links": {
+		"메인": ["/index.html", "mainframe", "완료", ""],
+		"솔루션": {
+			"플랫폼": {
+				"FIDO 생체 인증 플랫폼 OnePass": ["/RAON_F_01/01/01.html", "mainframe", "완료", ""],
+				"스마트워크 보안 플랫폼 OneGuard": ["/RAON_F_01/01/02.html", "mainframe", "완료", ""],
+				"개방형 인증 통합 플랫폼 OneAccess": ["/RAON_F_01/01/03.html", "mainframe", "완료", ""],
+				"통합계정 권한 관리 플랫폼(가칭) TouchEn Wiseaccess": ["/RAON_F_01/01/04.html", "mainframe", "완료", ""],
+				"DID, FIDO 기반 신원증명 플랫폼 OmniOne": ["/RAON_F_01/01/05.html", "mainframe", "완료", ""]
+			},
+			"모바일 보안": {
+				"TouchEn mTranskey": ["/RAON_F_01/02/01.html", "mainframe", "완료", ""],
+				"TouchEn mVaccine": ["/RAON_F_01/02/02.html", "mainframe", "완료", ""],
+				"TouchEn mOTP": ["/RAON_F_01/02/03.html", "mainframe", "완료", ""],
+				"TouchEn mWiseaccess": ["/RAON_F_01/02/04.html", "mainframe", "완료", ""],
+				"TouchEn Appfree": ["/RAON_F_01/02/05.html", "mainframe", "완료", ""],
+				"TouchEn MACserverless": ["/RAON_F_01/02/06.html", "mainframe", "완료", ""],
+				"TouchEn AntiCapture": ["/RAON_F_01/02/07.html", "mainframe", "완료", ""],
+				"Key# wireless": ["/RAON_F_01/02/08.html", "mainframe", "완료", ""]
+			},
+			"PC 보안": {
+				"TouchEn Transkey": ["/RAON_F_01/03/01.html", "mainframe", "완료", ""],
+				"TouchEn nxKey": ["/RAON_F_01/03/02.html", "mainframe", "완료", ""],
+				"TouchEn nxFirewall": ["/RAON_F_01/03/03.html", "mainframe", "완료", ""],
+				"TouchEn nxWeb": ["/RAON_F_01/03/04.html", "mainframe", "완료", ""],
+				"Key# biz": ["/RAON_F_01/03/05.html", "mainframe", "완료", ""]
+			},
+			"제품탐색기":  ["/RAON_F_01/04/01.html", "mainframe", "완료", ""]
+		},
+		"서비스": {
+			"카드본인확인 서비스": ["/RAON_F_02/01/01.html", "mainframe", "완료", ""],
+			"카드본인확인서비스 문의 메일폼": ["/RAON_F_02/01/M01.html", "mainframe", "완료", ""],
+			"USIM스마트인증": ["/RAON_F_02/01/03.html", "mainframe", "완료", ""],
+			"스마트 사인": ["/RAON_F_02/01/04.html", "mainframe", "완료", ""],
+			"라온 모바일 시큐리티": ["/RAON_F_02/01/02.html", "mainframe", "완료", ""],
+			"라온 CTF": ["/RAON_F_02/01/05.html", "mainframe", "완료", ""],
+			"Risk Proof 서비스": ["/RAON_F_02/01/06.html", "mainframe", "완료", ""],
+			"IS컨설팅": ["/RAON_F_02/01/07.html", "mainframe", "완료", ""]
+		},
+		"레퍼런스": {
+			"분야별 사례": {
+				"모바일 솔루션": ["/RAON_F_03/01/01.html", "mainframe", "완료", ""],
+				"사용자 인증 솔루션": ["/RAON_F_03/01/02.html", "mainframe", "완료", ""],
+				"본인확인 솔루션": ["/RAON_F_03/01/03.html", "mainframe", "완료", ""]
+			},
+			"업종별 사례": {
+				"공공기관": ["/RAON_F_03/02/01.html", "mainframe", "완료", ""],
+				"금융기관": ["/RAON_F_03/02/02.html", "mainframe", "완료", ""],
+				"일반기업": ["/RAON_F_03/02/03.html", "mainframe", "완료", ""]
+			}
+		},
+		"고객지원": {
+			"장애문의": ["/RAON_F_04/01/01/01.html", "mainframe", "완료", ""],
+			"제품문의": ["/RAON_F_04/01/02.html", "mainframe", "완료", ""],
+			"문의접수 메일폼(기업고객)": ["/RAON_F_04/01/M01.html", "mainframe", "완료", ""],
+			"문의접수 메일폼(제품고객)": ["/RAON_F_04/01/M02.html", "mainframe", "완료", ""],
+			"다운로드": ["/RAON_F_04/01/04.html", "mainframe", "완료", ""]
+		},
+		"라온": {
+			"라온시큐어 소개": {
+				"회사소개": ["/RAON_F_05/01/01.html", "mainframe", "완료", ""],
+				"패밀리사 소개": ["/RAON_F_05/01/02.html", "mainframe", "완료", ""],
+				"고객가치": ["/RAON_F_05/01/03.html", "mainframe", "완료", ""],
+				"CI/BI 가이드": ["/RAON_F_05/01/04.html", "mainframe", "완료", ""],
+				"공지사항": ["/RAON_F_05/01/05.html", "mainframe", "완료", ""],
+				"공지사항 - 검색O": ["/RAON_F_05/01/05_S.html", "mainframe", "완료", ""],
+				"공지사항 - 검색X": ["/RAON_F_05/01/05_N.html", "mainframe", "완료", ""],
+				"공지사항 - 상세": ["/RAON_F_05/01/05_V.html", "mainframe", "완료", ""],
+				"보도자료": ["/RAON_F_05/01/06.html", "mainframe", "완료", ""],
+				"보도자료 - 검색O": ["/RAON_F_05/01/06_S.html", "mainframe", "완료", ""],
+				"보도자료 - 검색X": ["/RAON_F_05/01/06_N.html", "mainframe", "완료", ""],
+				"보도자료 - 상세": ["/RAON_F_05/01/06_V.html", "mainframe", "완료", ""],
+				"영상자료": ["/RAON_F_05/01/07.html", "mainframe", "완료", ""]
+			},
+			"IR": {
+				"실시간 주가 현황": ["/RAON_F_05/03/01.html", "mainframe", "완료", ""],
+				"재무정보": ["/RAON_F_05/03/02/01.html", "mainframe", "완료", ""],
+				"주주 총회": ["/RAON_F_05/03/03.html", "mainframe", "완료", ""],
+				"공시정보": ["/RAON_F_05/03/04.html", "mainframe", "완료", ""],
+				"전자공고": ["/RAON_F_05/03/05.html", "mainframe", "완료", ""],
+				"전자공고 - 검색O": ["/RAON_F_05/03/05_S.html", "mainframe", "완료", ""],
+				"전자공고 - 검색X": ["/RAON_F_05/03/05_N.html", "mainframe", "완료", ""],
+				"전자공고 - 상세": ["/RAON_F_05/03/05_V.html", "mainframe", "완료", ""],
+				"IR자료실": ["/RAON_F_05/03/06.html", "mainframe", "완료", ""],
+				"IR자료실 - 검색O": ["/RAON_F_05/03/06_S.html", "mainframe", "완료", ""],
+				"IR자료실 - 검색X": ["/RAON_F_05/03/06_N.html", "mainframe", "완료", ""],
+				"IR자료실 - 상세": ["/RAON_F_05/03/06_V.html", "mainframe", "완료", ""]
+			}
+		},
+		"인재채용": {
+			"라온인": ["/RAON_F_05/02/04.html", "mainframe", "완료", ""],
+			"채용정보": ["/RAON_F_05/02/01/01.html", "mainframe", "완료", ""],
+			"라온 라이프": ["/RAON_F_05/02/02.html", "mainframe", "완료", ""],
+			"라온 복지제도": ["/RAON_F_05/02/03.html", "mainframe", "완료", ""]
+		},
+		"통합검색": ["/RAON_F_06/01.html", "mainframe", "완료", ""],
+		"404 Error": ["/error404.html", "mainframe", "완료", ""]
+	}
+}
