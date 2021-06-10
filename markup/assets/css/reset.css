@@ -46,7 +46,7 @@ optgroup { font-weight: bold; }
 table { border-collapse: collapse; border-spacing: 0; }
 td, th { padding: 0; }
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, figure, legend, input, textarea, button, p, blockquote, th, td, form, fieldset, blockquote, iframe { margin: 0; padding: 0; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none; }
-html * { -webkit-box-sizing: border-box; box-sizing: border-box; word-wrap: normal; }
+html * { -webkit-box-sizing: border-box; box-sizing: border-box;}
 article, aside, canvas, details, embed, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 command, datalist, keygen, mark, meter, progress, rp, rt, ruby, time, wbr { display: inline; }
 img { vertical-align: top; border: 0; max-width:100%; }
