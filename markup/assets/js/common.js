@@ -58,28 +58,6 @@ $('.moGnbMenu .depth1 > li').click(function(){
 
 });
 
-// 화면에 따른 비주얼 사이즈
-// function funcThisSize() {
-//     $(window).innerWidth
-// }
-
-// $(function(){
-//     let windowW = window.innerWidth;
-//     let windowH = window.innerHeight;
-
-//     $('')
-// });
-
-// let swiper = new Swiper('.swiper-container', {
-//     slidesPerView: 'auto',
-//     spaceBetween: 30,
-//     freeMode: true,
-//     pagination: {
-//         el: '.swiper-pagination',
-//         clickable: true,
-//     },
-// });
-
 // 화면 위치에서 인터랙션 실행
 $(window).scroll(function(){
 
