@@ -4,9 +4,8 @@
   "description": "",
   "main": "html/index.html",
   "scripts": {
-    "dev": "gulp dev",
-    "build": "gulp build",
-    "deploy" : "gulp deploy"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "gulp build"
   },
   "license": "ISC",
   "devDependencies": {
@@ -26,6 +25,8 @@
     "gulp-sourcemaps": "^2.6.5"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "gulp-gh-pages": "^0.5.4"
-  }
+  },
+  "homepage": "https://sseunggry.github.io/sm"
 }
